@@ -2,6 +2,8 @@
   --color-font: #222222;
   --color-emphasis: #ec682a;
   --header-height: 63px;
+  --sln-height: 80px;
+  --footer-height: 323px;
   --footer-title-color: #fff;
   --font-family-regular: BentonSans, sans-serif;
   --font-family-light: BentonSansLight, sans-serif;
@@ -9,6 +11,7 @@
   --font-family-book: BentonSansBook, sans-serif;
   --code-color-font: #d14;
   --feedback-height: 70px;
+  --feedback-height-total: 190px;  
   --tile-title-background-color: #0b8062;
   --tile-subtitle-background-color: #caeae2;
   --tile-subtitle-background-color: #cceae2;
@@ -23,7 +26,10 @@ $font-color: var(--color-font);
 $color-highlight: var(--color-emphasis);
 $inverted-font-color: var(--footer-title-color);
 $header-height: var(--header-height);
+$footer-height: var(--footer-height);
+$sln-height: var(--sln-height);
 $code-color-font: var(--code-color-font);
 $feedback-height: var(--feedback-height);
+$feedback-height-total: var(--feedback-height-total);
 $tile-title-background-color: var(--tile-title-background-color);
 $tile-subtitle-background-color: var(--tile-subtitle-background-color);

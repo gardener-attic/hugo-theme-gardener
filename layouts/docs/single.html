@@ -8,6 +8,7 @@
 <div class="docs page">
   {{- if .Params.remote -}}
   {{- else -}}
+  <h1>{{ .Title }}</h1>
   <div class="properties">
     {{with .Params.Tags}}
     <ul class="tags">
@@ -18,7 +19,7 @@
     {{- end -}}
     {{with .Params.Level}}
     <div class="expertise-level">
-      <span class="label" title="Expertise level">Expertise</span>
+      <span class="label" title="Expertse level">Expertise</span>
       {{ if eq . "beginner"}}
       <svg class="icon level" aria-hidden="true" focusable="false">
         <use xlink:href="{{"images/icons/icons.svg#level-1"| relURL}}"></use>

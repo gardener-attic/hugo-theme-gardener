@@ -58,7 +58,7 @@ body {
 
 .sln {
   display: none;
-  height: 80px;
+  height: var(--sln-height);
   position: sticky;
   top: 63px;
   z-index: 1;
