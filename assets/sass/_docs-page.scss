@@ -55,17 +55,24 @@
             }
           }
         }
-        .page-edit {
-          text-align: right;
-          margin-left: auto;
-          #top-github-link {
-            .github-link {
-              z-index: initial;
-              -webkit-transform: none;
-              font-size: 2.5rem;
-              color: #555;
-              :hover {
-                color: $color-highlight;
+        .origin-tools {
+          display: flex;
+          flex: 1;
+          >* {
+            margin-left: 5px;
+          }
+          .page-edit {
+            text-align: right;
+            margin-left: auto;
+            #top-github-link {
+              .github-link {
+                z-index: initial;
+                -webkit-transform: none;
+                font-size: 2.5rem;
+                color: #555;
+                :hover {
+                  color: $color-highlight;
+                }
               }
             }
           }
@@ -121,6 +128,9 @@
             }
           }
         }
+      }
+      img {
+        max-width: 100%
       }
     }
   }

@@ -75,7 +75,7 @@ ul {
     flex-flow: column;
     .body-inner-wrapper {
       flex: 1;
-      min-height: calc(100vh - 410px);
+      min-height: calc(100vh - var(--sln-height) - var(--header-height) - var(--footer-height) - var(--feedback-height-total));
     }
   }
 }
@@ -337,6 +337,7 @@ samp {
   padding: 0;
   border: 0;
   position: relative;
+  white-space: pre-wrap;
 }
 
 
@@ -488,6 +489,7 @@ h3 samp {
     img {
       width: 32px;
       vertical-align: middle;
+      margin: auto 5px;
     }
   }
 }
