@@ -1,0 +1,5 @@
+bin
+hugo/data
+hugo/content
+hugo/public
+hugo/resources

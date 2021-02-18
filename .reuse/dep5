@@ -1,0 +1,36 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Gardener hugo-theme-gardener
+Upstream-Contact: The Gardener project <gardener@googlegroups.com>
+Source: https://github.com/gardener/hugo-theme-gardener
+
+# --------------------------------------------------
+# examples and supplementary
+
+Files:
+  assets/*
+  layouts/*
+  static/*
+  example/*
+  .github/*
+  *.json
+  .dockerignore
+  .gitignore
+  CODEOWNERS
+  go.mod
+  go.sum
+  VERSION
+Copyright: 2020 SAP SE or an SAP affiliate company and Gardener contributors
+License: Apache-2.0
+
+# --------------------------------------------------
+# documentation
+
+Files:
+  docs/*
+
+Copyright: 2020 SAP SE or an SAP affiliate company and Gardener contributors
+License: CC-BY-4.0
+
+# --------------------------------------------------
+# source dependencies
+

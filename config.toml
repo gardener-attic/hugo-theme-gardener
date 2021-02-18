@@ -1,0 +1,23 @@
+baseURL = "https://gardener.cloud/"
+title = "Gardener"
+disableHugoGeneratorInject = true
+
+[markup] 
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = false
+    style = "vs"
+    tabWidth = 4
+
+[params]
+  # editURL = "https://github.com/gardener/documentation/edit/master/website/"
+  # issueURL = "https://github.com/gardener/documentation/issues"
+  # copyright = "Copyright 2019 Gardener project authors."
+  # description = "Gardener Website"
+  # Google Tag Manager container
+  # googleTagsManager = "GTM-ABC1234"
+  # Google Search Console site verification tag
+  # googleSiteVerificationTag = "..."
