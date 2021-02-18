@@ -5,7 +5,7 @@
   left: 0;
   min-width: 300px;
   margin-right: 50px;
-  margin-top: calc(63px + 4rem) !important;
+  margin-top: calc(var(--header-height) + 4rem) !important;
   overflow-x: hidden;
   margin-top: calc(var(--gd-header-height) + 4rem);
   transition: 0.5s;
@@ -13,6 +13,7 @@
   box-shadow: 4px 3px 8px -6px #000;
   @media (min-width: 1000px) {
     margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
   }
   &.collapsed {
     width: 0;

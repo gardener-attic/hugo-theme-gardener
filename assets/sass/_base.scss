@@ -75,7 +75,10 @@ ul {
     flex-flow: column;
     .body-inner-wrapper {
       flex: 1;
-      min-height: calc(100vh - var(--sln-height) - var(--header-height) - var(--footer-height) - var(--feedback-height-total));
+      min-height: calc(100vh - var(--sln-height) - var(--header-height) - var(--footer-height));
+      @media (min-width: 1000px) {
+        min-height: calc(100vh - var(--sln-height) - var(--header-height) - var(--footer-height) - var(--feedback-height-total));
+      }
     }
   }
 }
